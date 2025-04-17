@@ -25,7 +25,7 @@ export default function HomePage() {
         setError(data.error || "Something went wrong");
         return;
       }
-      setShortUrl(`ENTER VERCEL URL HERE/${alias}`);
+      setShortUrl(`mp-5-delta.vercel.app/${alias}`);
     } catch {
       setError("Error, please try again");
     }
